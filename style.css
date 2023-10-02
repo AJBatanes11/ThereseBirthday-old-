@@ -213,7 +213,8 @@ h3 {
     color: #777;
     background-color: white;
     text-align: center;
-    padding: 50px 80px;
+    padding: 50px 150px;
+    line-height: 2;
     text-align: justify;
 }
 
