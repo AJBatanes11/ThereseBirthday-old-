@@ -179,17 +179,17 @@ html {
 }
 
 .bgimg-1 {
-    background-image: url(sample-images/277568694_10218537732629350_6751879564945441060_n.jpg);
+    background-image: url(images/BGIMG-1.jpg);
     min-height: 100vh;
 }
 
 .bgimg-2 {
-    background-image: url(sample-images/286092748_2018815674980885_1696956450525032995_n.jpg);
+    background-image: url(images/BGIMG-2.jpg);
     min-height: 75%;
 }
 
 .bgimg-3 {
-    background-image: url(sample-images/received_218847807335294.jpeg);
+    background-image: url(images/BGIMG-3.jpeg);
     min-height: 50%;
 }
 
