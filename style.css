@@ -352,9 +352,9 @@ h3 {
 }
 
 .btn__inverse:hover {
-    color: #fff;
-    /* background: var(--yellow); */
-    background: var(--yellowDim);
+    color: var(--yellow);
+    background: transparent;
+    /* background: var(--yellowDim); */
     border: 1px solid var(--yellow);
     transition: 1s ease;
 }
