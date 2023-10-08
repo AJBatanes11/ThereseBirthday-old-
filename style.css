@@ -246,11 +246,10 @@ h3 {
 }
 
 .row {
-    margin: 10px auto;
+    margin: auto;
     display: flex;
     justify-content: space-between;
-
-
+    margin-top: 10px;
 }
 
 .col {
