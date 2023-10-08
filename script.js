@@ -31,7 +31,7 @@ function viewMore(batchNumber) {
                 b2Container.style.maxHeight = "200%";
                 b2Container.style.opacity = "1";
                 viewMoreBtn.setAttribute('onclick', "viewMore('b3')");
-                // window.location = '#b2';
+                window.location = '#b2';
             }
             break;
 
@@ -40,7 +40,7 @@ function viewMore(batchNumber) {
                 b3Container.style.maxHeight = "200%";
                 b3Container.style.opacity = "1";
                 viewMoreBtn.textContent = 'View Less';
-                // window.location = '#b3';
+                window.location = '#b3';
             } else {
                 b2Container.style.maxHeight = "0";
                 b3Container.style.maxHeight = "0";
