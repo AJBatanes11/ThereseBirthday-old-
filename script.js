@@ -28,7 +28,7 @@ function viewMore(batchNumber) {
     switch (batchNumber) {
         case "b2":
             if (parseInt(b2Container.style.maxHeight) === 0) {
-                b2Container.style.maxHeight = "200%";
+                b2Container.style.maxHeight = "2000%";
                 b2Container.style.opacity = "1";
                 viewMoreBtn.setAttribute('onclick', "viewMore('b3')");
                 window.location = '#b2';
@@ -37,7 +37,7 @@ function viewMore(batchNumber) {
 
         case "b3":
             if (parseInt(b3Container.style.maxHeight) === 0) {
-                b3Container.style.maxHeight = "200%";
+                b3Container.style.maxHeight = "2000%";
                 b3Container.style.opacity = "1";
                 viewMoreBtn.textContent = 'View Less';
                 window.location = '#b3';

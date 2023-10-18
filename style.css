@@ -367,13 +367,14 @@ h3 {
 
 .album-container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin: auto;
 }
 
 .album {
     align-self: center;
-    margin: 10px 20px;
+    margin: 1%;
 }
 
 .album p {
